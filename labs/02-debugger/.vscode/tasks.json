@@ -1,0 +1,25 @@
+
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build debug.c",
+            "type": "shell",
+            "command": "cl",
+            "args": [
+                "/Zi",
+                "/Od",
+                "/Fe:debug.exe",
+                "debug.c"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": "$msCompile",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
