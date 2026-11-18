@@ -8,6 +8,8 @@ venv/
 *.obj
 *.o
 *.pdb
+*.lib
+*.exp
 *.ilk
 *.dll
 *.so
